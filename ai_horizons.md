@@ -54,3 +54,24 @@ Perhaps machines don't need any guidance at all, but if we want the human+machin
 
 One way to do this is to constrain the space of possibilities to resemble to something resembling our minds (rather than our brains).
 
+# Self-organizing code
+
+It's about writing components in such a way that the structure (think DAG) of the program itself can be inferred by the (unordered) set of components itself, with minimized "further questions" to dispel ambiguity. Totally and absolutely possible: You have types, names, tests, and as a last resort, the user, to help reduce any ambiguities.
+
+By projecting language constructs to a common space — for instance, by wrapping their interfaces to a universal one — we make it easier for various components to be connected into a computational structure. 
+
+But how can we make connecting components easier? Identifying patterns and erecting a reusable components out of the composition of other components brings us some of the way — and this is how computation has evolved so far; chunking and aliasing. 
+
+What’s outside that box?
+
+Thought experiment: Leave a developer with a bunch of code she didn’t write, and ask her to build stuff with it (with minimal glue code). How would she approach the problem?
+
+The code itself, along with all it’s meta-data, has a lot of information about how one could, or could not, connect things together. We have documentation, tests, names given to functions and arguments, types, etc. If this information could be extracted and codified properly, it would significantly reduce the entropy or structural possibilities. 
+
+But extracting and codifying this information is hard when you have so many languages, styles, choice of words, etc. That said, if you provide tools for a human to add to guide the system, there may be hope. 
+
+R&D POC: Write components with strongly typed interfaces, throw them in a pool with no further instructions, and get a generator of DAGs that connect these components in a input-output type-compliant manner. Generator would start with the smallest DAGs, and build from there.
+
+But types are too restrictive; their history is tainted with too-close-to-the-machine concerns. We need a more flexible concept to replace type. Duck-typing is one direction, but might be too flexible. Perhaps a more fuzzy approach is needed. Rather than matching types, we associate a scaled matching score to any two components (or any two sets of components). Probabilistic approaches would then guide the search for compliant structures. 
+
+
