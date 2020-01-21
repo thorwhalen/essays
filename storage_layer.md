@@ -18,6 +18,38 @@ specifying a bunch of parametrization we don't really care about, not only slowi
 but by the same token violating multiple good principles 
 (such as separation of concerns, convention over configuration, and/or uniform access principle).
 
+# py2store: A working example in python
+
+See/get it here: https://github.com/i2mint/py2store
+
+At the time of writing this, py2store contains the more stable parts of my experimentation in simplifying storage operations. 
+
+I went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
+
+List, read, write, and delete data in a structured data source/target, 
+as if manipulating simple python builtins (dicts, lists), or through the interface **you** want to interact with, 
+with configuration or physical particularities out of the way. 
+Also, being able to change these particularities without having to change the business-logic code. 
+
+## How py2store works
+
+py2store offers three aspects that you can define or modify to store things where you like and how you like it:
+* **Persistence**: Where things are actually stored (memory, files, DBs, etc.)
+* **Serialization**: Value transformaton. 
+How python objects should be transformed before it is persisted, 
+and how persisted data should be transformed into python objects.
+* **Indexing**: Key transformation. How you name/id/index your data. 
+Full or relative paths. Unique combination of parameters (e.g. (country, city)). Etc.
+
+All of this allows you to do operations such as "store this (value) in there (persitence) as that (key)", 
+moving the tedious particularities of the "in there" as well how the "this" and "that" are transformed to fit 
+in there, all out of the way of the business logic code. The way it should be.
+
+![alt text](img/py2store_how_it_works.png)
+
+Note: Where data is actually persisted just depends on what the base CRUD methods 
+(`__getitem__`, `__setitem__`, `__delitem__`, `__iter__`, etc.) define them to be. 
+
 # Use cases
 
 ## Interfacing reads
@@ -66,38 +98,7 @@ So what I need is an easy way to get some minimal storage functionality.
 But when the time comes to optimize, I shouldn't have to change my code, but instead just change the way my 
 DAO does things. What I need is py2store.
 
-# py2store: A working example in python
-
-See/get it here: https://github.com/i2mint/py2store
-
-Storage CRUD how and where you want it.
-
-List, read, write, and delete data in a structured data source/target, 
-as if manipulating simple python builtins (dicts, lists), or through the interface **you** want to interact with, 
-with configuration or physical particularities out of the way. 
-Also, being able to change these particularities without having to change the business-logic code. 
-
-## How py2store works
-
-py2store offers three aspects that you can define or modify to store things where you like and how you like it:
-* **Persistence**: Where things are actually stored (memory, files, DBs, etc.)
-* **Serialization**: Value transformaton. 
-How python objects should be transformed before it is persisted, 
-and how persisted data should be transformed into python objects.
-* **Indexing**: Key transformation. How you name/id/index your data. 
-Full or relative paths. Unique combination of parameters (e.g. (country, city)). Etc.
-
-All of this allows you to do operations such as "store this (value) in there (persitence) as that (key)", 
-moving the tedious particularities of the "in there" as well how the "this" and "that" are transformed to fit 
-in there, all out of the way of the business logic code. The way it should be.
-
-![alt text](img/py2store_how_it_works.png)
-
-Note: Where data is actually persisted just depends on what the base CRUD methods 
-(`__getitem__`, `__setitem__`, `__delitem__`, `__iter__`, etc.) define them to be. 
-
-
-# A peep of how it looks like in practice
+## A peep of how py2store looks like in practice
 
 Install it (e.g. `pip install py2store`).
 
