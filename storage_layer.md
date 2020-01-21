@@ -22,12 +22,14 @@ but by the same token violating multiple good principles
 
 See/get it here: https://github.com/i2mint/py2store
 
-At the time of writing this, py2store contains the more stable parts of my experimentation in simplifying storage operations and went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
+At the time of writing this, py2store contains the more stable parts of my python experimentats in simplifying storage operations and went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
 
-List, read, write, and delete data in a structured data source/target, 
-as if manipulating simple python builtins (dicts, lists), or through the interface **you** want to interact with, 
-with configuration or physical particularities out of the way. 
-Also, being able to change these particularities without having to change the business-logic code. 
+I focused first on what I considered to be the most common set of base storage operations: Read, write, delete and list in a key-value storage system. I then needed to decide what I would name these operations. One of the common choices such as read/load/get, write/dump/set, delete/remove/clear, etc. The intention is to allow a user to wrap any storage system with a layer allowing them to use the dialect they want or need to use, but in order to do so, it helps to have an intemediate common language. 
+
+I eventually settled, with a eureka: Basic operations, in python, should have the same interface as the basic mapping and sequence types of python -- that way even the most basic knowledge of python would allow one to understand the interfaces py2store would develop.
+
+Thus, py2store aims at offering and interface to any storage system that is as simple as manipulating the most basic python builtins (dicts, lists), with configuration or physical particularities out of the way. 
+This approach separates the storage operation from it's physical particuliarities, thus enabling us to change these particularities without having to change the business-logic code. 
 
 ## How py2store works
 
