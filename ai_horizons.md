@@ -1,3 +1,15 @@
+# Ideas to consider
+
+## AI Reading comprehension 
+
+A branch of _cognitive AI_ that seeks to teach machines how to "understand" what they read. This "understanding" is defined according to specific actions the machine can perform, given the input text, such as answer questions about it. 
+
+Wouldn't it be concievable then, to have a machine "understand" a written description of a app to be able to write the code for it?
+
+Lot's of public code produced every day, a lot of it even "annotated" by natural language (for instance on coding forums). Is that not enough supervised data to help us out?
+
+The goal doesn't have to be absolute to make things better than they are now. We don't have to produce a program than generates the perfect app from an unstructured natural language description. But we can probably do better than needing to spell everything out in some frigid programming language. The bar can be placed where ever today's pragmatic AI possibilities dictate. 
+
 
 # Hurdles to AI
 
@@ -74,4 +86,16 @@ R&D POC: Write components with strongly typed interfaces, throw them in a pool w
 
 But types are too restrictive; their history is tainted with too-close-to-the-machine concerns. We need a more flexible concept to replace type. Duck-typing is one direction, but might be too flexible. Perhaps a more fuzzy approach is needed. Rather than matching types, we associate a scaled matching score to any two components (or any two sets of components). Probabilistic approaches would then guide the search for compliant structures. 
 
+
+# Quotes:
+
+“_The problem is that software engineers don’t understand the problem they’re trying to solve, and don’t care to_" -- Nancy Leveson (MIT software-safety expert)
+
+"_(A programmer...) has to be able to think in terms of conceptual hierarchies that are much deeper than a single mind ever needed to face before._" -- Edsger Dijkstra (1988 - computer scientist)
+
+"_I’m not sure that programming has to exist at all._" -- Bret Victor
+
+"_Computers had doubled in power every 18 months for the last 40 years. Why hadn’t programming changed?_" -- 
+"Most programmers like code. At least they understand it."
+-- https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
 
