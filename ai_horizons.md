@@ -1,5 +1,8 @@
 
 
+"_Computers had doubled in power every 18 months for the last 40 years. Why hadn’t programming changed?_"
+-- https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
+
 # Ideas to consider
 
 
@@ -42,6 +45,8 @@ We're trying to model the mind by modeling the brain, and modeling the brain wit
 The mind has more of the messy multi-connected structure of language than the neat arrangements of matrices.
 
 ### Coding
+"_I’m not sure that programming has to exist at all._" -- Bret Victor
+
 I said "coding" instead of "programming languages" on purpose. It's the "programming" that I'm pointing the accusatory finger at, 
 not the language part. 
 Again, language is close to the mind, and will be involved in our communicating our designs to a computer. 
@@ -74,6 +79,8 @@ One way to do this is to constrain the space of possibilities to resemble to som
 
 ## Self-organizing code
 
+"_(A programmer...) has to be able to think in terms of conceptual hierarchies that are much deeper than a single mind ever needed to face before._" -- Edsger Dijkstra (1988 - computer scientist)
+
 It's about writing components in such a way that the structure (think DAG) of the program itself can be inferred by the (unordered) set of components itself, with minimized "further questions" to dispel ambiguity. Totally and absolutely possible: You have types, names, tests, and as a last resort, the user, to help reduce any ambiguities.
 
 By projecting language constructs to a common space — for instance, by wrapping their interfaces to a universal one — we make it easier for various components to be connected into a computational structure. 
@@ -101,7 +108,9 @@ But types are too restrictive; their history is tainted with too-close-to-the-ma
 
 "_I’m not sure that programming has to exist at all._" -- Bret Victor
 
-"_Computers had doubled in power every 18 months for the last 40 years. Why hadn’t programming changed?_" -- 
+"_Computers had doubled in power every 18 months for the last 40 years. Why hadn’t programming changed?_"
+-- https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
+
 "Most programmers like code. At least they understand it."
 -- https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
 
