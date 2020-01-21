@@ -22,9 +22,7 @@ but by the same token violating multiple good principles
 
 See/get it here: https://github.com/i2mint/py2store
 
-At the time of writing this, py2store contains the more stable parts of my experimentation in simplifying storage operations. 
-
-I went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
+At the time of writing this, py2store contains the more stable parts of my experimentation in simplifying storage operations and went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
 
 List, read, write, and delete data in a structured data source/target, 
 as if manipulating simple python builtins (dicts, lists), or through the interface **you** want to interact with, 
