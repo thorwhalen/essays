@@ -1,5 +1,7 @@
 # Ideas to consider
 
+What could we utilize from coding forums and AI reading comprehension to loosen the rigidity of programming languages?
+
 ## AI Reading comprehension 
 
 A branch of _cognitive AI_ that seeks to teach machines how to "understand" what they read. This "understanding" is defined according to specific actions the machine can perform, given the input text, such as answer questions about it. 
