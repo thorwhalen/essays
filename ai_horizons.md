@@ -1,37 +1,39 @@
+
+
 # Ideas to consider
 
-What could we utilize from coding forums and AI reading comprehension to loosen the rigidity of programming languages?
 
 ## AI Reading comprehension 
 
-A branch of _cognitive AI_ that seeks to teach machines how to "understand" what they read. This "understanding" is defined according to specific actions the machine can perform, given the input text, such as answer questions about it. 
+What could we utilize from coding forums and AI reading comprehension to loosen the rigidity of programming languages?
 
-Wouldn't it be concievable then, to have a machine "understand" a written description of a app to be able to write the code for it?
+Reading comprehension is a branch of _cognitive AI_ that seeks to teach machines how to "understand" what they read. This "understanding" is defined according to specific actions the machine can perform, given the input text, such as answer questions about it. 
+
+Wouldn't it be conceivable then, to have a machine "understand" a written description of a app to be able to write the code for it?
 
 Lot's of public code produced every day, a lot of it even "annotated" by natural language (for instance on coding forums). Is that not enough supervised data to help us out?
 
-The goal doesn't have to be absolute to make things better than they are now. We don't have to produce a program than generates the perfect app from an unstructured natural language description. But we can probably do better than needing to spell everything out in some frigid programming language. The bar can be placed where ever today's pragmatic AI possibilities dictate. 
+The goal doesn't have to be absolute to make things better than they are now. We don't have to produce a program that generates the perfect app from an unstructured natural language description. But we can probably do better than needing to spell everything out in some frigid programming language. The bar can be placed wherever today's pragmatic AI possibilities dictate. 
 
+## The seldom challenged
 
-# Hurdles to AI
-
-At the time of writing this, I see three main limitations of the evolution of AI:
+Let's consider a radical idea: The three main limitations of the evolution of AI:
 * Deep learning
 * Coding
 * Digital Computers
 
 The above follows the "bad to worse" type of joke structure. 
 
-The punchline is I'm not kidding. 
+The punchline is I'm not (totally) kidding. 
 
-Now, of course, I wouldn't be writing this, or have the wonderful job I have, if it weren't for digital computers and the languages to talk to them. 
-And deep learning, the (current) cherry on top of the machine learning cake: They can do magic.
+Now, of course, I wouldn't be writing this, or have the wonderful job I have, if it weren't for digital computers and the programming languages I use to talk to them. 
+And deep learning is the (current) cherry on top of the machine learning cake: Neural networks can do magic.
 
-But we can do better. Of course.
+Yet, we can do better. Of course we can.
 
-So let's have a look at what we could do differently.
+So let's have a look at what we could do differently. Let's for a moment challenge precisely those things that seem so unchallengeable.
 
-## Deep learning
+### Deep learning
 Deep learning is greedy, brittle, opaque, and shallow, says Gary Marcus (professor of cognitive psychology at NYU). 
 
 Think outside the hypercube!
@@ -39,8 +41,8 @@ Think outside the hypercube!
 We're trying to model the mind by modeling the brain, and modeling the brain with structured layers.
 The mind has more of the messy multi-connected structure of language than the neat arrangements of matrices.
 
-## Coding
-I said "coding" instead of "programming languages" on purpose. It's the "programming" that I'm pointing my accusatory finger at, 
+### Coding
+I said "coding" instead of "programming languages" on purpose. It's the "programming" that I'm pointing the accusatory finger at, 
 not the language part. 
 Again, language is close to the mind, and will be involved in our communicating our designs to a computer. 
 But does that communication have to be so darn unforgivingly dry and fragile?
@@ -48,7 +50,7 @@ But does that communication have to be so darn unforgivingly dry and fragile?
 The way we talk to computers still carries a heavy "engineering" legacy; switches to flip, wires to connect, etc.
 But that's not the way we think, so the idea-to-implementation path is slow and creativity is limited.
 
-## Digital Computers
+### Digital Computers
 Intelligence is not binary.
 
 Reality is not precise.
@@ -56,7 +58,9 @@ Reality is not precise.
 Harness uncertainty instead of fighting it!
 
 
-# Guide the natural semantic emergence
+# A few thoughts
+
+## Guide the natural semantic emergence
 
 _"(…) deep learning dynamics can self-organize emergent hidden representations in a manner that recapitulates many empirical phenomena in human development."_ [A mathematical theory of semantic development in deep neural networks](https://www.pnas.org/content/116/23/11537): 
 
@@ -68,7 +72,7 @@ Perhaps machines don't need any guidance at all, but if we want the human+machin
 
 One way to do this is to constrain the space of possibilities to resemble to something resembling our minds (rather than our brains).
 
-# Self-organizing code
+## Self-organizing code
 
 It's about writing components in such a way that the structure (think DAG) of the program itself can be inferred by the (unordered) set of components itself, with minimized "further questions" to dispel ambiguity. Totally and absolutely possible: You have types, names, tests, and as a last resort, the user, to help reduce any ambiguities.
 
@@ -101,3 +105,7 @@ But types are too restrictive; their history is tainted with too-close-to-the-ma
 "Most programmers like code. At least they understand it."
 -- https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
 
+
+
+ 
+ 
