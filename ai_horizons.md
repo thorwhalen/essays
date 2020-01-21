@@ -1,8 +1,5 @@
 
 
-"_Computers had doubled in power every 18 months for the last 40 years. Why hadn’t programming changed?_"
--- https://www.theatlantic.com/technology/archive/2017/09/saving-the-world-from-code/540393/
-
 # Ideas to consider
 
 
