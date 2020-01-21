@@ -24,7 +24,7 @@ See/get it here: https://github.com/i2mint/py2store
 
 At the time of writing this, py2store contains the more stable parts of my python experimentats in simplifying storage operations and went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
 
-I focused first on what I considered to be the most common set of base storage operations: Read, write, delete and list in a key-value storage system. I then needed to decide what I would name these operations. One of the common choices such as read/load/get, write/dump/set, delete/remove/clear, etc. The intention is to allow a user to wrap any storage system with a layer allowing them to use the dialect they want or need to use, but in order to do so, it helps to have an intemediate common language. 
+I focused first on what I considered to be the most common set of base storage operations: Read, write, delete and list in a key-value storage system. I then needed to decide what I would name these operations. One of the common choices such as read/load/fetch/retrieve/get, write/dump/store/create/set, delete/remove/clear, etc. The intention is to allow a user to wrap any storage system with a layer allowing them to use the dialect they want or need to use, but in order to do so, it helps to have an intemediate common language. 
 
 I eventually settled, with a eureka: Basic operations, in python, should have the same interface as the basic mapping and sequence types of python -- that way even the most basic knowledge of python would allow one to understand the interfaces py2store would develop.
 
