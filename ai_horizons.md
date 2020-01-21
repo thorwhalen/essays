@@ -2,18 +2,14 @@
 
 # Ideas to consider
 
+In case the reader doesn't go further, I'd like to bullet point a few ideas at the top.
+* Coding: We're shaping our minds according to machines instead of shaping machines to our minds.
+* When can coding, or even computers, do the job without bring precise, complete, or event deterministic? Because... we (humans) aren't any of that, and yet are good enough for many tasks.
+* Could AI reading comprehension research and the troves of public annotated code help to loosen the rigidity of coding?
+* Can the natural semantic emergence (deep learning) be guided towards mind-patterns rather than brain-patterns?
+* Self-organizing code
 
-## AI Reading comprehension 
-
-What could we utilize from coding forums and AI reading comprehension to loosen the rigidity of programming languages?
-
-Reading comprehension is a branch of _cognitive AI_ that seeks to teach machines how to "understand" what they read. This "understanding" is defined according to specific actions the machine can perform, given the input text, such as answer questions about it. 
-
-Wouldn't it be conceivable then, to have a machine "understand" a written description of a app to be able to write the code for it?
-
-Lot's of public code produced every day, a lot of it even "annotated" by natural language (for instance on coding forums). Is that not enough supervised data to help us out?
-
-The goal doesn't have to be absolute to make things better than they are now. We don't have to produce a program that generates the perfect app from an unstructured natural language description. But we can probably do better than needing to spell everything out in some frigid programming language. The bar can be placed wherever today's pragmatic AI possibilities dictate. 
+More details on these will be discussed below.
 
 ## The seldom challenged
 
@@ -60,7 +56,20 @@ Reality is not precise.
 Harness uncertainty instead of fighting it!
 
 
-# A few thoughts
+# Some ideas to explore
+
+## AI Reading comprehension 
+
+What could we utilize from coding forums and AI reading comprehension to loosen the rigidity of programming languages?
+
+Reading comprehension is a branch of _cognitive AI_ that seeks to teach machines how to "understand" what they read. This "understanding" is defined according to specific actions the machine can perform, given the input text, such as answer questions about it. 
+
+Wouldn't it be conceivable then, to have a machine "understand" a written description of a app to be able to write the code for it?
+
+Lot's of public code produced every day, a lot of it even "annotated" by natural language (for instance on coding forums). Is that not enough supervised data to help us out?
+
+The goal doesn't have to be absolute to make things better than they are now. We don't have to produce a program that generates the perfect app from an unstructured natural language description. But we can probably do better than needing to spell everything out in some frigid programming language. The bar can be placed wherever today's pragmatic AI possibilities dictate. 
+
 
 ## Guide the natural semantic emergence
 
