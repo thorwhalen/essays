@@ -6,7 +6,7 @@ This covers a lot of ground, and many particulars of computing come into play --
 locally or remotely, if and how the data is indexed, who has access to what, etc.
 
 Often, these particulars are of no concern to a POC or even MVP. Yet they have to be taken care of to move forward, 
-and unfortunately each particular comes with it's own vocabulary and "grammar", even for the most basic operations.
+and unfortunately each particular comes with it's own vocabulary and grammar, even for the most basic operations.
 
 # Write THIS, THERE
 
