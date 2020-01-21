@@ -5,11 +5,13 @@
 In case the reader doesn't go further, I'd like to bullet point a few ideas at the top.
 * Coding: We're shaping our minds according to machines instead of shaping machines to our minds.
 * When can coding, or even computers, do the job without bring precise, complete, or event deterministic? Because... we (humans) aren't any of that, and yet are good enough for many tasks.
+* Is it worse to not be completely precise or predictable, or just fail categorically? How does this depend on the context?
 * Could AI reading comprehension research and the troves of public annotated code help to loosen the rigidity of coding?
 * Can the natural semantic emergence (deep learning) be guided towards mind-patterns rather than brain-patterns?
+* Self-recovering code
 * Self-organizing code
 
-More details on these will be discussed below.
+More details on some of these ideas will be discussed below.
 
 ## The seldom challenged
 
