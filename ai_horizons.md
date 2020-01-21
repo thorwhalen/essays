@@ -17,7 +17,7 @@ The goal doesn't have to be absolute to make things better than they are now. We
 
 ## The seldom challenged
 
-Let's consider a radical idea: The three main limitations of the evolution of AI:
+Let's consider a radical idea. The three main limitations of the evolution of AI are
 * Deep learning
 * Coding
 * Digital Computers
