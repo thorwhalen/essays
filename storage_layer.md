@@ -1,5 +1,5 @@
-The following discusses ideas and presents solutions, to address the problem of linguistic entropy around storage and offer 
-tools to keep storage aspects as simple as they need to be.
+The following investigates the problem of "linguistic entropy" surrounding storage operations, and propose 
+approaches to maintain storage operatioon expression as only as complex it needs to be.
 
 To put it simply but generally, by storage we mean the aspect of reading and writing data (and any derivatives such as deleting, updating, etc.).
 This covers a lot of ground, and many particulars of computing come into play -- whether the data is persisted or not, 
