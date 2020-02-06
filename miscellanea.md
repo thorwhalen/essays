@@ -16,4 +16,5 @@ Software should be softer to allow enough wiggle room to absorb the
 shock of uncertainty. 
 
 ![alt text](img/do_not_trust_software.png)
+
 (from https://xkcd.com/2030/)
