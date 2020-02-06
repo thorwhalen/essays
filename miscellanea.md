@@ -17,4 +17,4 @@ shock of uncertainty.
 
 ![alt text](img/do_not_trust_software.png)
 
-(from https://xkcd.com/2030/)
+(Image from https://xkcd.com/2030/)
