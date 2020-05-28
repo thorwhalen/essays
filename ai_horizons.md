@@ -1,4 +1,6 @@
+In tech, there’s way too much focus on the crisp (precision, predictability, exactitude,…) that blinds us from the being able to take advantage of the mush (uncertainty, fuzziness, imprecision, …). In many (but not all) AI approaches, there’s a lot of wiggle room created by so many layers of imprecision between signal and decision. An error between a key stroke and key captured could be fatal for a text editor. 
 
+But in a signal-to-decision, only the last step (the decision) needs to be crisp – on the path there, most errors would lead to the same decision. 
 
 # Ideas to consider
 
