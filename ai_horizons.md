@@ -1,12 +1,18 @@
-In tech, there’s way too much focus on the crisp (precision, predictability, exactitude,…) that blinds us from the being able to take advantage of the mush (uncertainty, fuzziness, imprecision, …). In many (but not all) AI approaches, there’s a lot of wiggle room created by so many layers of imprecision between signal and decision. An error between a key stroke and key captured could be fatal for a text editor. 
+In tech, there’s way too much focus on the crisp (precision, predictability, exactitude,…) 
+that blinds us from the being able to take advantage of the mush (uncertainty, fuzziness, imprecision, …). 
+In many (but not all) AI approaches, there’s a lot of wiggle room created by so many layers of imprecision between 
+signal and decision. 
+An error between a key stroke and key captured could be fatal for a text editor. 
 
-But in a signal-to-decision, only the last step (the decision) needs to be crisp – on the path there, most errors would lead to the same decision. 
+But in a signal-to-decision, only the last step (the decision) needs to be crisp – on the path there, most errors would 
+lead to the same decision. 
 
 # Ideas to consider
 
 In case the reader doesn't go further, I'd like to bullet point a few ideas at the top.
 * Coding: We're shaping our minds according to machines instead of shaping machines to our minds.
-* When can coding, or even computers, do the job without bring precise, complete, or event deterministic? Because... we (humans) aren't any of that, and yet are good enough for many tasks.
+* When can coding, or even computers, do the job without bring precise, complete, or event deterministic? 
+Because... we (humans) aren't any of that, and yet are good enough for many tasks.
 * Is it worse to not be completely precise or predictable, or just fail categorically? How does this depend on the context?
 * Could AI reading comprehension research and the troves of public annotated code help to loosen the rigidity of coding?
 * Can the natural semantic emergence (deep learning) be guided towards mind-patterns rather than brain-patterns?
@@ -26,7 +32,8 @@ The above follows the "bad to worse" type of joke structure.
 
 The punchline is I'm not (totally) kidding. 
 
-Now, of course, I wouldn't be writing this, or have the wonderful job I have, if it weren't for digital computers and the programming languages I use to talk to them. 
+Now, of course, I wouldn't be writing this, or have the wonderful job I have, 
+if it weren't for digital computers and the programming languages I use to talk to them. 
 And deep learning is the (current) cherry on top of the machine learning cake: Neural networks can do magic.
 
 Yet, we can do better. Of course we can.

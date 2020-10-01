@@ -8,7 +8,8 @@ I don’t enjoy running. I enjoy having run.
 
 I’m not in it for the process, it’s the result I’m after.
 
-It’s as if I expected god-like powers allowing me to think and my thoughts be done, and find any delay between both unexceptable. 
+It’s as if I expected god-like powers allowing me to think and my thoughts be done, 
+and find any delay between both unacceptable. 
 Imagine therefore my frustration with the state of technology today, a day whose year bears the deceivingly pretentious number of 2020. 
 Sure, we carry supercomputing portals to the universe in our pockets, but “can you hear me now” is the expected state of tele-communication. 
 

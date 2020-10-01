@@ -6,7 +6,7 @@ The very name is misleading. Software isn't soft at all.
 It evolved from hardware engineering and bares it's legacy: 
 It's binary, it's rigid, it's brittle. 
 It's inspired by inanimate machines, not the organic animate. 
-It aims for the certain and the exactit but also relies on these and breaks when things are not so. 
+It aims for the certain and the exact but also relies on these and breaks when things are not so. 
 
 The mechanical principles work well for simple systems with simple purposes -- such as buildings or vehicles -- 
 but as systems becomes more complex and interconnected, 

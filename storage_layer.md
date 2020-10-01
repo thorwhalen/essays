@@ -22,26 +22,28 @@ but by the same token violating multiple good principles
 
 See/get it here: https://github.com/i2mint/py2store
 
-At the time of writing this, py2store contains the more stable parts of my python experimentats in simplifying storage operations and went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
+At the time of writing this, py2store contains the more stable parts of my python experiments in simplifying storage operations and went through several tag-lines such as: "Storage CRUD how and where you want it", or "The DAO (Data Access Object) of Python", etc.
 
-I focused first on what I considered to be the most common set of base storage operations: Read, write, delete and list in a key-value storage system. I then needed to decide what I would name these operations. One of the common choices such as read/load/fetch/retrieve/get, write/dump/store/create/set, delete/remove/clear, etc. The intention is to allow a user to wrap any storage system with a layer allowing them to use the dialect they want or need to use, but in order to do so, it helps to have an intemediate common language. 
+I focused first on what I considered to be the most common set of base storage operations: Read, write, delete and list in a key-value storage system. 
+I then needed to decide what I would name these operations. One of the common choices such as read/load/fetch/retrieve/get, write/dump/store/create/set, delete/remove/clear, etc. The intention is to allow a user to wrap any storage system with a layer allowing them to use the dialect they want or need to use, 
+but in order to do so, it helps to have an intermediate common language. 
 
 I eventually settled, with a eureka: Basic operations, in python, should have the same interface as the basic mapping and sequence types of python -- that way even the most basic knowledge of python would allow one to understand the interfaces py2store would develop.
 
 Thus, py2store aims at offering and interface to any storage system that is as simple as manipulating the most basic python builtins (dicts, lists), with configuration or physical particularities out of the way. 
-This approach separates the storage operation from it's physical particuliarities, thus enabling us to change these particularities without having to change the business-logic code. 
+This approach separates the storage operation from it's physical particularities, thus enabling us to change these particularities without having to change the business-logic code. 
 
 ## How py2store works
 
 py2store offers three aspects that you can define or modify to store things where you like and how you like it:
 * **Persistence**: Where things are actually stored (memory, files, DBs, etc.)
-* **Serialization**: Value transformaton. 
+* **Serialization**: Value transformation. 
 How python objects should be transformed before it is persisted, 
 and how persisted data should be transformed into python objects.
 * **Indexing**: Key transformation. How you name/id/index your data. 
 Full or relative paths. Unique combination of parameters (e.g. (country, city)). Etc.
 
-All of this allows you to do operations such as "store this (value) in there (persitence) as that (key)", 
+All of this allows you to do operations such as "store this (value) in there (persistence) as that (key)", 
 moving the tedious particularities of the "in there" as well how the "this" and "that" are transformed to fit 
 in there, all out of the way of the business logic code. The way it should be.
 

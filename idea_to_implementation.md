@@ -8,7 +8,7 @@ Though we've made some progress since machine language, we're still haunted by i
 # Reduce vocabulary entropy
 One way to get to enable faster development is to have tools that vocabulary entropy. 
 
-Every time I try touse a new package, I scower through the documentation to figure out how to... And I use my words. 
+Every time I try to use a new package, I scour through the documentation to figure out how to... And I use my words. 
 But the package author used hers. 
 
 How do I read a row in sql? How do I read to a json file? How do I get the contents of a github repository? How do I download the contents that a url is pointing at? 
@@ -31,9 +31,9 @@ for similar actions, it'd be easier wouldn't it.
 
 We have grand AI dreams, but the idea of applying AI to helping the coding process out seems to be uncommon. 
 
-Yet, we will reach AI hights through our communication with the machine. 
+Yet, we will reach AI heights through our communication with the machine. 
 
-If we can't improve that communication, what other grandeurs could we hope for?!
+If we can't improve that communication, what other grandeur could we hope for?!
 
 Perhaps this is the exponential-creating feedback-loop we've been missing: The human helping the machine to help the human help the machine...
 
