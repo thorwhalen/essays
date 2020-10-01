@@ -9,7 +9,7 @@ Informational illusion. Beware!
 Okay, that was the troll style way of compensating for the currently trending hype around the subject, and all the misinformation surrounding it. 
 Reality, as always, is a bit more in the grey. (But if you want black and white commandments, here it is: Stay away from synthetic data.)
 
-## The good
+## Use cases
 
 Synthetic data is good if you count sythetic data as being data you generated from the raw data. That's data preperation. That's deidentification. 
 That's not what I'm really focused on here. 
@@ -27,4 +27,24 @@ Congradulations? The model you're using to general that new data fits reality we
 
 Erm... So why don't you just use **that** model?
 
-## The bad
+## What's happening?
+
+So that's the main point. 
+
+Synthetic data always has a model behind it. 
+It may be simple, such as repeating and removing points, or it may be more sophisticated, such as adding noise, or extrapolating between points, computing categorical densities and randomly drawing from the inferred distribution.
+
+Still. A model.
+
+So why not just use **that** model?
+
+Well, there lies the rub, and a reason why resorting to sythetic data **could** be a good idea. The reason is that 
+- it may be easy to build a generatiive model, but harder to reverse it (i.e. get a inference engine out of it -- but note that there are methods for this)
+- the inference model you're building (the purpose of the data in the first place) has a limited interface/language
+
+Limited interface/language? Like... it only takes points as it's data input format. Like... most of the models out there.
+
+
+
+
+
