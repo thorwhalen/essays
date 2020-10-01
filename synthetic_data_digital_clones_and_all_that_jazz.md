@@ -98,7 +98,7 @@ so might not be as popular as point-injecting multi-layer black-box gluttons.
 
 # Appendix: Use Cases, good and bad
 
-## Testing models
+## Good: Testing models
 
 I don't mean train/test. I mean unit testing model learners. 
 It's combersome and inefficient to do unit tests with real data. 
@@ -106,7 +106,7 @@ Instead, use a synthetic data generator.
 It's only weight (unless you need to seed it) is the code itself.
 Not much
 
-## Diagnosing models
+## Good: Diagnosing models
 
 Data generators are great for this. 
 This allows you to diagnose learners and see what kinds of reality they're good at modeling. 
