@@ -48,7 +48,7 @@ If your model could inject distributions, you wouldn't need to generate extra po
 
 And that's it. Anytime you use synthetic data, there's some data distribution assumption behind it, and the only reason you'd want to draw points from it is because you (or your model) doesn't have the language/interface to absorb the distribution in it's entirety. 
 
-## Should I do it
+## Should I do it?
 
 Sure. Do it. But know what you're doing, and especially know what you're not. 
 
