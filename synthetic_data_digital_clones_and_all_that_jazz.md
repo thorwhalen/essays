@@ -11,6 +11,14 @@ and all the misinformation surrounding it.
 Reality, as always, is a bit more in the grey. (But if you want black and white commandments, here it is: 
 Stay away from synthetic data.)
 
+## Nutshell
+
+Synthetic data always has a model/distribution assumption behind it. 
+It's **that information** you're actually trying to enhance your model with. 
+The only reason you're generating points is that your model can't (shame on it), 
+or you don't know how to make it (shame on you), 
+ingest any another form of information.
+
 ## Use cases
 
 Synthetic data is good if you count synthetic data as being data you generated from the raw data. 
