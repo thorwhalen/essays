@@ -94,3 +94,26 @@ Even better would be distributions (having both shape and weight). But that migh
 so might not be as popular as point-injecting multi-layer black-box gluttons. 
 
 
+
+
+# Appendix: Use Cases, good and bad
+
+## Testing models
+
+I don't mean train/test. I mean unit testing model learners. 
+It's combersome and inefficient to do unit tests with real data. 
+Instead, use a synthetic data generator. 
+It's only weight (unless you need to seed it) is the code itself.
+Not much
+
+## Diagnosing models
+
+Data generators are great for this. 
+This allows you to diagnose learners and see what kinds of reality they're good at modeling. 
+If you can use the same model of reality that the learner has to actually generate data, even better. 
+If the model can't do well on that, there's something fishy.
+You've got yourself a new unit tester!
+
+Gauging your model's performance metrics over several kinds of data generators 
+(i.e. having several different kinds of reality)
+gives you a feature vector of the model itself. 
