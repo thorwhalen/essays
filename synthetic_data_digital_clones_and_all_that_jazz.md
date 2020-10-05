@@ -1,3 +1,7 @@
+Heard a [this "data science at home" podcast](https://datascienceathome.com/why-synthetic-data-cannot-boost-machine-learning-ep-120/) the other day. 
+I've been annoyed at the hype around "synthetic data". A hype so strong that it managed to infect even the minds at least one of my data scientists. 
+I was happy to hear someone else not pull any punches in analyzing the subject. If you have time, go listen to the podcast. Here are only a few of my own thoughts.
+
 # Synthetic data
 
 Hype!
@@ -92,7 +96,6 @@ If they can ingest weighted points, that's better since you can add more informa
 
 Even better would be distributions (having both shape and weight). But that might require some math, 
 so might not be as popular as point-injecting multi-layer black-box gluttons. 
-
 
 
 
