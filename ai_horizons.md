@@ -127,6 +127,28 @@ R&D POC: Write components with strongly typed interfaces, throw them in a pool w
 
 But types are too restrictive; their history is tainted with too-close-to-the-machine concerns. We need a more flexible concept to replace type. Duck-typing is one direction, but might be too flexible. Perhaps a more fuzzy approach is needed. Rather than matching types, we associate a scaled matching score to any two components (or any two sets of components). Probabilistic approaches would then guide the search for compliant structures. 
 
+### Where testing and validation fit
+
+If you have validation code then you can validate if a particular code-organization is correct. 
+You can also use this same validation code to come up with proposals in the first place. 
+
+Even more preferable than binary validation (either correct or not) would be having a numerical validation score.
+A score can still be used (through a threshold) to ascertain correctness, but can also be used to distinguish, amongst several correct options, which are more desirable, or amongst several not-passing options, which is the closest to correct. 
+
+Therefore such a score transforms the self-organization problem into a standard optimization problem. 
+
+Let’s take two examples. 
+
+Let’s say you have three functions: `f`, `g` and `h` and you know that these should be in a pipeline, 
+but you don't know in what order. There brute force can try all `6` combinations. 
+If the test/validation (could simply be a smoke "doesn't blow up in my face" test) passes for one of the combinations, 
+you have a candidate -- if only one of them passes, you're even more confident. 
+
+Let's say now that you know the order is `f -> g -> h`, but you know the data between these needs to be transformed in some way, 
+because like most functions out there, they're not really Postel-principled. 
+So your search space is `f -> X -> g -> Y -> h` with `X` and `Y` taken from a set of data transformers (that include the identity function). 
+Again, you're left with a discrete optimization problem, for which there's plenty of code.
+
 
 # Quotes:
 
