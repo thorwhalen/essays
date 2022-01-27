@@ -88,11 +88,22 @@ _"(…) deep learning dynamics can self-organize emergent hidden representations
 
 Yet, I still insist that the industry should spend more effort modeling the mind with language-like structures and is spending too much on modeling the brain with rectangular structures.
 
-Let's assume, as the article claims, that language-like organization naturally emerges from the rectangular ones.My guess is that there's many ways to do this, and therefore it will be improbable that the internal representations the machine will develop will be compatible with ours.
+Let's assume, as the article claims, that language-like organization naturally emerges from the rectangular ones. My guess is that there's many ways to do this, and therefore it will be improbable that the internal representations the machine will develop will be compatible with ours.
 
 Perhaps machines don't need any guidance at all, but if we want the human+machine system to be optimal for humans, we may want to provide this guidance anyway.
 
 One way to do this is to constrain the space of possibilities to resemble to something resembling our minds (rather than our brains).
+
+## Optimizing the Machine+Human system
+
+(from an email sent to BR)
+
+Let me start with this. I use the term AI or ML because it’s understood, but the direction I’m inspired towards is not endowing machines with independence, but rather optimizing the machine+human system to enhance human creativity and productivity. 
+It’s not a new idea, but I find that current trends lose sight of that – with their black box big data models, programming languages that reflect how the machine works more than how our thoughts work, the lack of harnessing uncertainty, etc. 
+
+The form this is taking for me now is to write frameworks that allow us to produce well-principled code at 1e-6 the speed of thought, and ever trying to increase that number. The lag from idea to implementation frustratingly too large to facilitate creativity and adaptivity.  
+
+The form I’d enjoy more would be to develop tools that would do the same in music. How can we get from idea to implementation as quick as possible in music? I think there’s a lot of quite reachable things that can be done to ease learning from human to machine and vice versa. 
 
 ## Self-organizing code
 
