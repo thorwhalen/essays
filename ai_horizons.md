@@ -12,12 +12,12 @@ lead to the same decision.
 The current success of deep learning is deserved, but in my opinion has a few undesirable effects, 
 amongst which is this obsession with removing the human from the process. 
 An alternative approach would be to work on making tools that would allow the human to have a conversation with the data 
-rather than try create a direct connection between data and machine that bypasses us. 
+rather than **only** try create a direct connection between data and machine that bypasses us. 
 
 I agree on the many pros, and the wonderful horizons, of having the machine be able to learn independently; 
 I just think that something is lost, and what is lost doesn't get much coverage. 
 Yes, we hear of "blackbox", we hear of the "interpretability" limitations of deep learning, but it goes further than that. 
-Our approach doesn't allow us to communicate our own thought patterns or data-locked-up-in-our-experience to the machine, 
+Our approach doesn't allow us to effectively communicate our own thought patterns or data-locked-up-in-our-experience to the machine, 
 nor for the machine to help us ask questions about the data beyond the perspectives it was trained to extract from it. 
 
 # Ideas to consider
