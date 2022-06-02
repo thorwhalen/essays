@@ -16,7 +16,9 @@ nor for the machine to help us ask questions about the data beyond the perspecti
 
 Perhaps we need to include the human in the equation and optimize the machine+human(+data?) system.
 
-Let me start with this. I use the term AI or ML because it’s understood, but the direction I’m inspired towards is not endowing machines with independence, but rather **optimizing the machine+human system to enhance human creativity and productivity**. 
+I use the term AI or ML because that's what people recognize, 
+but the approach that is close to my heart is not that of endowing machines with independence, 
+but rather **optimizing the machine+human system to enhance human creativity and productivity**. 
 It’s not a new idea, but I find that current trends lose sight of that – with their black box big data models, programming languages that reflect how the machine works more than how our thoughts work, the lack of harnessing uncertainty, etc. 
 
 Some problems have clear, fixed and measurable objectives. For instance self-driving cars need to be able to drive you from A to B without hurting anyone or destroying anything. With the right sensors and enough data it seems plausible that we'll be able to rely on deep learning to solve that problem. 
@@ -28,19 +30,27 @@ little or no further interaction on my part.
 Yet that implementing the idea takes days, weeks, or even months.
 Why is that?
 
+Can we do better? 
+Can we make the process of implementation be smoother, faster, more human-like, more conversational?
+
+
 ## Coding at the speed of thought
 
 The lag from idea to implementation is frustratingly too large to facilitate creativity and adaptivity.  
 
-I'm fortunate enough to have a reached a level of experience that allows me to express at least some of my thoughts directly in the form of code, as long as it's something I'm familiar enough with that I know the vocabulary (and grammar) I need to 
-talk to the machine with. 
+I'm fortunate enough to have a reached a level of experience that allows me to express 
+at least some of my thoughts directly in the form of code, 
+as long as it's something I'm familiar enough with the required vocabulary (and grammar) for the problem at hand.
 
-As soon as I need to deal with details that I can't express as quickly as I'm thinking them, things slow down, 
+Yet, as soon as I need to deal with details that I can't express as quickly as I'm thinking them, 
+things slow down, 
 the global vision is blurred and the momentum is lost. 
 On a good design day, I'm able to write things in layers that are each simple enough to express a part of 
 the larger idea but not every day is a good design day.
 
-I'm human. Yet I'm shaping my mind according to the way the machine operates.
+I'm human. 
+
+Yet I'm shaping my mind according to the way the machine operates.
 Shouldn't the machine be endowed with some, say, minimal intelligence that it takes to help me along the path from 
 idea to implementation? 
 
