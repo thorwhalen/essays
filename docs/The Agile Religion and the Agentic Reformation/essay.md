@@ -1,6 +1,7 @@
-# The Agile Religion and the Agentic Reformation
-
-*What the bureaucrats got right, and why agents can finally afford it*
+---
+title: The Agile Religion and the Agentic Reformation
+subtitle: What the bureaucrats got right, and why agents can finally afford it
+---
 
 ![A scholar nails a scroll covered in a system diagram to a church door while three clockwork automatons copy it into ledgers, in the style of a 1520s woodcut](img/hero-agentic-reformation.jpg "Illustration generated for this essay, in the style of a Reformation-era woodcut.")
 
