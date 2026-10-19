@@ -113,9 +113,7 @@ Then again, I know what self-reports like mine are worth.
 
 In [METR's 2025 randomised trial](https://arxiv.org/abs/2507.09089), sixteen experienced open-source developers expected AI tools to make them 24% faster, believed afterwards that they had been 20% faster, and were in fact 19% *slower*. The tools have improved a lot since early 2025, and METR's own [2026 follow-up](https://metr.org/blog/2026-02-24-uplift-update/) is honest that its newer data is an "unreliable signal." But nothing in it suggests developers got any better at judging their own speed.
 
-So, with the appropriate hedge: the improvement feels dramatic to me. I haven't measured it, and as far as I know nobody has measured it for ADRs specifically. The closest study, on what its authors call [constraint decay](https://arxiv.org/abs/2605.06445), is a warning: agents lose about 27 points of test pass rate as structural requirements pile up. If that holds up, it argues for short design docs.
-
-In the first draft of this essay I wrote that design docs had become "quadratically cheaper": writing got cheaper by some factor, reading by roughly the same factor, so a doc that actually shapes the code got cheaper by its square. I still like the intuition, but I can't show you data for it, so treat it as an argument.
+So, with the appropriate hedge: the improvement feels dramatic to me. I haven't measured it, and as far as I know nobody has measured it for ADRs specifically. The closest study I know of, on what its authors call [constraint decay](https://arxiv.org/abs/2605.06445), is a warning: agents lose about 27 points of assertion pass rate as structural requirements pile up. If that holds up, it argues for short design docs.
 
 ## The new equilibrium
 
@@ -125,7 +123,7 @@ For twenty-five years we were told to pick a point on a line, with rigor at one 
 
 Agents move the sweet spot along that line, toward more design. Most of what made rigor expensive was grunt work (writing the documents, reading them, keeping the code faithful to them), which agents now do.
 
-But there's a force pulling the other way. Agents also make *code* cheap to rewrite, which makes Winston Royce's 1970 advice to "do it twice" (and Fred Brooks's "plan to throw one away") affordable for the first time. Cheap rework pulls the optimum back toward less upfront design.
+But agents also make *code* cheap to rewrite. Winston Royce, the man Waterfall gets pinned on, told his readers to "do it twice": build a pilot version first, as well as all the documents. When a pilot costs an afternoon instead of a third of the schedule, it can answer some of the questions those documents were for, and that pulls the sweet spot back toward less *written* design. (Royce would not have approved of that part.)
 
 Which force wins depends on how expensive the decision is to undo. A function is cheap to redo. A data model with three years of production data in it is not, and neither is a public API with customers on it. Those are the ones I'd write down.
 
