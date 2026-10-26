@@ -5,7 +5,7 @@ subtitle: What the bureaucrats got right, and why AI agents can finally afford i
 
 ![A scholar nails a scroll covered in a system diagram to a church door while three clockwork automatons copy it into ledgers, in the style of a 1520s woodcut](img/hero-agentic-reformation.jpg "Illustration generated for this essay, in the style of a Reformation-era woodcut.")
 
-Agility reminds me of a religion that has one denomination per individual.
+Agility is like a religion that has one denomination per individual.
 
 I have not once met, in my whole career, a developer who didn't agree with "agile". I have met some disconnected "software managers" (with little experience of how software projects actually go) who pushed for more process, for long months of writing specifications, and so on. But never an actual developer. No. We all believe in agility. But then we all disagree on how it should actually be carried out. More than once, Alice has complained to me that Bob's approach wasn't agile, not knowing that Bob had already come to me with the same complaint about Alice.
 
