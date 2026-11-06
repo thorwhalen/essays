@@ -4,12 +4,12 @@
   "repo": "thorwhalen/essays",
   "number": 30,
   "slug": "ai-and-the-accretion-trap-why-technical-experts-consistently",
-  "stage": "posted",
+  "stage": "published",
   "thin": false,
   "seed_words": 5176,
   "platform": "substack",
   "created": "2026-11-06T10:34:43+00:00",
-  "updated": "2026-11-06T13:11:17+00:00",
+  "updated": "2026-11-06T13:54:11+00:00",
   "images": [
     {
       "when": "2026-11-06T10:55:08+00:00",
@@ -90,5 +90,16 @@
   "comment_url": "https://github.com/thorwhalen/essays/issues/30#issuecomment-6683402793",
   "draft_version": 2,
   "posted": "2026-11-06T13:11:17+00:00",
-  "posted_hash": "ca94dab0dfc385fc"
+  "posted_hash": "ca94dab0dfc385fc",
+  "approved": {
+    "by": "thorwhalen",
+    "at": "2026-11-06T13:54:02+00:00",
+    "note": "Go ahead and publish it, and close the issue; mention the published link on the close message and at the top of the issue body; copy the published md to a discussion",
+    "essay_hash": "ca94dab0dfc385fc"
+  },
+  "draft_urls": {
+    "substack": "https://thorwhalen.substack.com/publish/post/223770382"
+  },
+  "published_to": "substack",
+  "draft_made": "2026-11-06T13:54:11+00:00"
 }
