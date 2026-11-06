@@ -2,6 +2,10 @@
 title: AI and the Accretion Trap
 subtitle: The experts were right about the packets. They were wrong about the internet. They're about to do it again.
 tags: [ai, software, history]
+images:
+  img/scaffold-cathedral.png: inset
+  img/switchboard-1922.jpg: inset
+  img/engineer-eyeroll.png: inset
 ---
 # AI and the Accretion Trap
 
