@@ -1,0 +1,88 @@
+{
+  "issue": "https://github.com/thorwhalen/essays/issues/30",
+  "issue_title": "AI and the Accretion Trap: Why Technical Experts Consistently Underestimate Broken Technologies",
+  "repo": "thorwhalen/essays",
+  "number": 30,
+  "slug": "ai-and-the-accretion-trap-why-technical-experts-consistently",
+  "stage": "illustrated",
+  "thin": false,
+  "seed_words": 5176,
+  "platform": "substack",
+  "created": "2026-11-06T10:34:43+00:00",
+  "updated": "2026-11-06T11:05:02+00:00",
+  "images": [
+    {
+      "when": "2026-11-06T10:55:08+00:00",
+      "kind": "added",
+      "file": "img/switchboard-1922.jpg",
+      "credit": "Telephone switchboard operators, Seattle, ca. 1922. Webster & Stevens, Museum of History and Industry, public domain, via Wikimedia Commons",
+      "license": "public domain",
+      "prompt": null,
+      "origin": "https://commons.wikimedia.org/wiki/Special:FilePath/Telephone_switchboard_operators,_ca_1922_(MOHAI_5108).jpg",
+      "used": true
+    },
+    {
+      "when": "2026-11-06T10:55:08+00:00",
+      "kind": "added",
+      "file": "img/arpanet-1973.jpg",
+      "credit": "ARPANET logical map, September 1973. Bolt Beranek and Newman, public domain, via Wikimedia Commons",
+      "license": "public domain",
+      "prompt": null,
+      "origin": "https://commons.wikimedia.org/wiki/Special:FilePath/ARPA_Network,_Logical_Map,_September_1973.jpg",
+      "used": true
+    },
+    {
+      "when": "2026-11-06T10:55:09+00:00",
+      "kind": "added",
+      "file": "img/baran-networks.png",
+      "credit": "Centralised, decentralised and distributed networks, after Paul Baran (RAND, 1964). Redrawn by Wikimedia Commons user 1983, CC BY-SA 3.0",
+      "license": "CC BY-SA 3.0",
+      "prompt": null,
+      "origin": "https://commons.wikimedia.org/wiki/Special:FilePath/Centralised-decentralised-distributed.png",
+      "used": true
+    },
+    {
+      "when": "2026-11-06T10:55:09+00:00",
+      "kind": "added",
+      "file": "img/cathedral-scaffold.jpg",
+      "credit": "Milan Cathedral under scaffolding. Photo by thinkrorbot, Public Domain Mark 1.0, via Flickr",
+      "license": "Public Domain Mark 1.0",
+      "prompt": null,
+      "origin": "https://live.staticflickr.com/400/20464798095_6836bd1ae8_b.jpg",
+      "used": true
+    },
+    {
+      "when": "2026-11-06T11:03:27+00:00",
+      "kind": "generated",
+      "file": "img/engineer-eyeroll.png",
+      "prompt": "A 1960s telephone engineer in shirtsleeves, standing in a vast hall of relay racks and switchboards, eyebrows raised and eyes rolling, while a young man in a narrow tie holds up a diagram of a mesh network with no centre; black-and-white engraving in the style of a 1920s technical magazine, fine hatching, high contrast, no text",
+      "credit": "Image generated for this essay",
+      "license": "",
+      "used": true
+    },
+    {
+      "when": "2026-11-06T11:03:59+00:00",
+      "kind": "generated",
+      "file": "img/scaffold-cathedral.png",
+      "prompt": "A cathedral built around a single small, crooked stone, the stone almost hidden by an immense lattice of wooden scaffolding that has grown so dense it has become the building itself, with tiny workers still adding poles at the top; a 16th-century woodcut, bold black lines on cream paper, no text",
+      "credit": "Image generated for this essay",
+      "license": "",
+      "used": true
+    }
+  ],
+  "last_check": {
+    "when": "2026-11-06T11:00:36+00:00",
+    "ductus": {
+      "label": "no-evidence",
+      "lean": 0.346,
+      "strength": 0.083,
+      "flagged": 8
+    },
+    "penlike": {
+      "me": {
+        "register": "essay",
+        "discrepancies": 2
+      }
+    }
+  }
+}
