@@ -9,7 +9,7 @@
   "seed_words": 5176,
   "platform": "substack",
   "created": "2026-11-06T10:34:43+00:00",
-  "updated": "2026-11-06T11:07:13+00:00",
+  "updated": "2026-11-06T13:11:17+00:00",
   "images": [
     {
       "when": "2026-11-06T10:55:08+00:00",
@@ -85,10 +85,10 @@
       }
     }
   },
-  "rendered_hash": "abe9476edcf84c33",
+  "rendered_hash": "ca94dab0dfc385fc",
   "rendered_missing": [],
   "comment_url": "https://github.com/thorwhalen/essays/issues/30#issuecomment-6683402793",
-  "draft_version": 1,
-  "posted": "2026-11-06T11:07:13+00:00",
-  "posted_hash": "abe9476edcf84c33"
+  "draft_version": 2,
+  "posted": "2026-11-06T13:11:17+00:00",
+  "posted_hash": "ca94dab0dfc385fc"
 }
